@@ -77,10 +77,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-accountant-project:build:production"
+              "buildTarget": "angular-accountant-project:build:production"
             },
             "development": {
-              "browserTarget": "angular-accountant-project:build:development"
+              "buildTarget": "angular-accountant-project:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,7 +88,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-accountant-project:build"
+            "buildTarget": "angular-accountant-project:build"
           }
         },
         "test": {
@@ -111,6 +111,5 @@
         }
       }
     }
-  },
-  "defaultProject": "angular-accountant-project"
+  }
 }
