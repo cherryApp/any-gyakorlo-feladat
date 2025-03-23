@@ -1,0 +1,46 @@
+{
+  "name": "angular-accountant-project",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test:51": "npm i && ng test --include=**/tests/test51.spec.ts",
+    "test:52": "ng test --include=**/tests/test52.spec.ts",
+    "test:53": "ng test --include=**/tests/test53.spec.ts",
+    "test": "npm run test:51 && npm run test:52 && npm run test:53"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~13.2.0",
+    "@angular/common": "~13.2.0",
+    "@angular/compiler": "~13.2.0",
+    "@angular/core": "~13.2.0",
+    "@angular/forms": "~13.2.0",
+    "@angular/platform-browser": "~13.2.0",
+    "@angular/platform-browser-dynamic": "~13.2.0",
+    "@angular/router": "~13.2.0",
+    "bootstrap": "^4.6.1",
+    "font-awesome": "^4.7.0",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~13.2.5",
+    "@angular/cli": "~13.2.5",
+    "@angular/compiler-cli": "~13.2.0",
+    "@types/jasmine": "~3.10.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~4.0.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.1.0",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "ngc-esbuild-devkit": "^0.0.48",
+    "typescript": "~4.5.2"
+  }
+}

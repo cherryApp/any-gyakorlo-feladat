@@ -1,0 +1,32 @@
+{
+  "name": "kepesito-vizsga",
+  "version": "1.0.0",
+  "description": "Struktúraváltás 2.0 - Frontendes képesítő vizsga",
+  "main": "babel.config.js",
+  "scripts": {
+    "test": "jest --env=jsdom",
+    "test-watch": "jest --watch",
+    "test:11": "npm test -- main.test.spec.js",
+    "test:21": "npm test -- dom1.test.spec.js",
+    "test:22": "npm test -- dom2.test.spec.js"
+  },
+  "author": "frontend",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@testing-library/jest-dom": "^5.16.2",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@types/node": "^17.0.21"
+  }
+}
